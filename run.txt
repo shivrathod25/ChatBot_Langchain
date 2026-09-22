@@ -1,0 +1,17 @@
+=====================================================
+  Agentic AI - Project Quick Run Instructions
+=====================================================
+
+1. Install Dependencies:
+   pip install -r requirements.txt
+
+2. Environment Setup (Optional):
+   Configure .env file with your GEMINI_API_KEY and DATABASE_URL if using MySQL/PostgreSQL.
+   (If MySQL is not running, the system automatically uses SQLite with sample data).
+
+3. Run Backend & Frontend (FastAPI Uvicorn):
+   uvicorn backend.main:app --reload --port 8000
+
+4. Access Application:  
+   - Web App:  http://localhost:8000/
+   - API Docs: http://localhost:8000/docs
